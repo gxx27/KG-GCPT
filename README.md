@@ -1,4 +1,6 @@
-# Pre-training on Drug Transformer
+# KG-GCPT
+
+This is the official codebase of the paper: KG-GCPT: Enhancing Drug Discovery with Knowledge-Guided Generative and Contrastive Pretraining of Graph Transformers
 
 ## Datasets
 Datasets with extracted features are available at the following Google Drive links:
@@ -12,13 +14,13 @@ finetune datasets: https://drive.google.com/file/d/1jAU9SIkXOtEmtl-w45kjl6dClExh
 ## Pretrained Model
 Pretrained model is available with the Google drive link:https://drive.google.com/file/d/15emQKReJgt34HxpSCdDY2OEGhALUtjty/view?usp=drive_link
 
-## KPGT
-First, you need to download the dataset and pre-trained model in the path KPGT/
+## KGGCPT
+First, you need to download the dataset and pre-trained model in the path KGGCPT/
 
 and then build the conda environment
 ```shell
 conda env create
-conda activate KPGT
+conda activate KGGCPT
 ```
 
 For pre-training, run the following command
