@@ -9,7 +9,7 @@ python -u -m torch.distributed.run --nproc_per_node=$nproc_per_node \
     --save_path ../models/ \
     --n_threads $n_threads \
     --n_devices $n_devices \
-    --config KPGT-B/768 \
+    --config KG-GCPT \
     --n_steps 200000 \
     --batch_size 512 \
     --gradient_accumulate_steps 2 \

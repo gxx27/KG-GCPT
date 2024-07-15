@@ -43,7 +43,7 @@ def parse_args():
     parser.add_argument("--seed", type=int, default=22)
     parser.add_argument("--n_epochs", type=int, default=50)
     parser.add_argument("--batch_size", type=int, default=32)
-    parser.add_argument("--config", type=str, default='KPGT-B/768')
+    parser.add_argument("--config", type=str, default='KG-GCPT')
     parser.add_argument("--model_path", type=str, default='../models/pretrained/origin.pth')
     parser.add_argument("--dataset", type=str)
     parser.add_argument("--data_path", type=str,default='../datasets')

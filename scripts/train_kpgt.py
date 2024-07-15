@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument("--total_steps", type=int, default=300000)
     parser.add_argument("--batch_size", type=int, default=512)
     parser.add_argument("--gradient_accumulate_steps", type=int, default=2)
-    parser.add_argument("--config", type=str, default="KPGT-B/768")
+    parser.add_argument("--config", type=str, default="KG-GCPT")
     parser.add_argument("--n_threads", type=int, default=8)
     parser.add_argument("--n_devices", type=int, default=1)
     parser.add_argument("--data_aug1", type=str, default=None, help='choose from drop_nodes, permute_edges, mask_nodes, subgraph')

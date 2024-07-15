@@ -1,5 +1,5 @@
 python finetune.py --batch_size 32 \
-    --config KPGT-B/768 \
+    --config KG-GCPT \
     --cuda cuda:0 \
     --dataset esol \
     --dataset_type regression \
